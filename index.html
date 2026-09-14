@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>境界線</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+        /* グラデーション */
+        h2.gradation {
+            border-image: linear-gradient(90deg, #f0f, #abf, #0ff) 1 1 / 15px;
+        }
+
+        /* 画像 */
+        h2.image {
+            border-image: url("images/circle.png") 30 / 20px round stretch;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>境界線</h1>
+    </header>
+    <h2 class="gradation">グラデーション</h2>
+    <h2 class="image">画像</h2>
+</body>
+</html>
